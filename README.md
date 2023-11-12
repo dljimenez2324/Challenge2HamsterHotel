@@ -3,7 +3,7 @@
 Name: David Jimenez <br>
 Project: Challenge #2 - Hamster Hotel <br>
 Date: 11/08/2023 <br>
-Description:
+<strong>Description:</strong>
 In this project, you will take the following mockup and make it into a fully functioning website.<br><br>
 
 Prototype Link <br>
