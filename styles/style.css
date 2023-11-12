@@ -1,3 +1,13 @@
 .NavbarBg {
     background-color: #000324;
 }
+
+.flexItGoodNCenter {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flexItEnd {
+    align-items: flex-end;
+}
