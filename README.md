@@ -7,7 +7,7 @@ Description: <br>
 In this project, you will take the following mockup and make it into a fully functioning website.<br><br>
 
 Prototype Link <br>
-* Grading will be based on how close your website is to the prototype.<br><br>
+* Grading will be based on how close your website is to the prototype.<br>
 * Also you must make the website responsive. <br>
 * Remember to follow the Submission Guidelines.<br><br>
 
