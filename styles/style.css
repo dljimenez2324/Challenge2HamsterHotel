@@ -9,5 +9,14 @@
 }
 
 .flexItEnd {
+    display: flex;
     align-items: flex-end;
+}
+
+.heroImage {
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20%;
+    
 }
