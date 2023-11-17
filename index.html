@@ -17,7 +17,8 @@
     <nav
       class="navbar navbar-expand-lg bg-body-tertiary bg-primary NavbarBack"
       data-bs-theme="dark"
-      >
+    >
+      <!-- if wanting to add fixed top   fixed-top -->
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -35,8 +36,8 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav flexItEnd">
-            <a class="nav-link " aria-current="page" href="#">Overview</a>
-            <a class="nav-link " href="#">Rooms</a>
+            <a class="nav-link" aria-current="page" href="#">Overview</a>
+            <a class="nav-link" href="#">Rooms</a>
             <a class="nav-link" href="#">Packages</a>
             <a class="navbar-brand" href="#">
               <img
@@ -79,19 +80,35 @@
           </div>
           <div class="col-8">
             <!-- look into using <dl> <dt> <dd> instead of <br> s -->
-            <h3>Welcome to a hamster's paradise</h3> <br>
-            <p>Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the small mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing spa, and a pool with a beach side view. 
-              <br><br>
-              Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich accommodations along with our unmatched luxury. Discover the satisfaction of indulging in our quality rooms, and thank you for choosing La Petite Maison.</p>
+            <h3>Welcome to a hamster's paradise</h3>
+            <br />
+            <p>
+              Nestled in the heart of Cavia California, La Petite Maison is a
+              luxury hotel designed for the small mammal with extravagance in
+              mind. Escape to the warm comforts of stunning rooms, a relaxing
+              spa, and a pool with a beach side view. <br /><br />
+              Inspired by the warm beauty of the California Coast, we invite you
+              to enjoy the rich accommodations along with our unmatched luxury.
+              Discover the satisfaction of indulging in our quality rooms, and
+              thank you for choosing La Petite Maison.
+            </p>
             <div class="row">
               <div class="col">
                 <img src="images/awardfinest.png" class="img-fluid" alt="..." />
               </div>
               <div class="col">
-                <img src="images/awardsatisfaction.png" class="img-fluid" alt="..."/>
+                <img
+                  src="images/awardsatisfaction.png"
+                  class="img-fluid"
+                  alt="..."
+                />
               </div>
               <div class="col">
-                <img src="images/awardgenuine.png" class="img-fluid" alt="..."/>
+                <img
+                  src="images/awardgenuine.png"
+                  class="img-fluid"
+                  alt="..."
+                />
               </div>
             </div>
           </div>
@@ -99,6 +116,51 @@
       </div>
     </div>
     <!-- End of Welcome container -->
+
+    <!-- Start Our Rooms Section -->
+    <!-- note: Change card boarder to none -->
+    <div class="container-fluid ourRoomImage">    
+      <h1 class="ourRoomsText">Our Rooms</h1>
+      <div class="card-group cardGroupStyled">
+        <div class="card itemRadiusNone cardSpace" style="width: 18rem">
+          <img src="images/room1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Queen Room</h5>
+            <p><strong>850 SQ FT room with city view</strong></p>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary itemRadiusNone">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card itemRadiusNone cardSpace" style="width: 18rem">
+          <img src="images/room3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">King Room</h5>
+            <p><strong>950 SQ FT room with beach view</strong></p>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary itemRadiusNone">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card itemRadiusNone cardSpace" style="width: 18rem">
+          <img src="images/room2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Beach Side Suite</h5>
+            <p><strong>1500 SQ FT Suite with beach view</strong></p>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary itemRadiusNone">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Rooms Section -->
 
     <!-- NO TOUCHY -->
     <script

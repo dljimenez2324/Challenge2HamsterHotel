@@ -63,3 +63,34 @@
     padding: 10%;
 }
 
+/* Styles taylored for Our Rooms Section */
+.itemRadiusNone {
+    border-radius: 0%;
+}
+
+.ourRoomImage {
+    background-image: url("../images/bg2.jpg");
+
+}
+
+.ourRoomsText {
+    display:flex;
+    justify-content: center;
+    padding-top: 2%;
+    text-align: center;
+    font: normal normal normal 35px/44px Dosis;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.cardGroupStyled {
+    padding-top: 1.5%;
+    padding-bottom: 6%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.cardSpace {
+    margin: 1%;
+}
