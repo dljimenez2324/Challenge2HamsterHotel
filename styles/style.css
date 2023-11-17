@@ -1,7 +1,28 @@
-.NavbarBg {
-    background-color: #000324;
+.NavbarBack {
+    background-color: #000324 !important;
 }
 
+.nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+    font: normal normal normal 20px/26px Dosis;
+}
+
+/* navReserve seems to not be working */
+.navReserve {
+    border-style:solid !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:#ffffff;
+}
+.navReserve:hover {
+    border-style:solid;
+}
+.navReserve:active {
+    border-style:solid;
+    color:#ffffff;
+
+}
 .bodyBg {
     background-color: #ffffff;
 }
@@ -21,7 +42,9 @@
     background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding: 20%; 
+
 }
 
 .flexPurpleBox {
@@ -39,3 +62,4 @@
     /* margin: auto; */
     padding: 10%;
 }
+
