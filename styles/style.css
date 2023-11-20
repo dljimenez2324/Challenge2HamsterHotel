@@ -99,3 +99,9 @@
 .packageFont {
     font-size: 35;
 }
+
+.packagePlacing {
+    padding-left: 11%;
+    padding-right: 11%;
+
+}
