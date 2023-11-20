@@ -63,7 +63,7 @@
     padding: 10%;
 }
 
-/* Styles taylored for Our Rooms Section */
+/* Styles tailored for Our Rooms Section */
 .itemRadiusNone {
     border-radius: 0%;
 }
@@ -93,4 +93,9 @@
 
 .cardSpace {
     margin: 1%;
+}
+
+/* Packages Section */
+.packageFont {
+    font-size: 35;
 }
