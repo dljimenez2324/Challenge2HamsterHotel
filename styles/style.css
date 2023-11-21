@@ -95,13 +95,51 @@
     margin: 1%;
 }
 
-/* Packages Section */
+
+/* !!! Packages Section !!!*/
+
 .packageFont {
     font-size: 35;
 }
 
-.packagePlacing {
+/* .packagePlacing {
     padding-left: 11%;
     padding-right: 11%;
 
+} */
+
+/* .leftImg {
+    padding-right: 5%;
+} */
+
+.headMargin {
+    margin-top: 6%;
+}
+
+.packageCardWidth {
+    max-width: 95%;
+}
+
+.cardTitleMarginBottom {
+    margin-bottom: 4%;
+
+}
+
+.packageTopMargin {
+    margin-top: 4%;
+}
+
+.cardMarginBottomZeroed {
+    margin-bottom: 0 !important;
+}
+
+.borderStyleNone {
+    border-style: none !important;
+    border-radius: 0% !important;
+}
+
+
+/* START of Amenities */
+.amenitiesHeader {
+    
 }
