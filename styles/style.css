@@ -23,6 +23,11 @@
     color:#ffffff;
 
 }
+
+.textColorWhite {
+    color: #FFFFFF;
+}
+
 .bodyBg {
     background-color: #ffffff;
 }
@@ -140,6 +145,12 @@
 
 
 /* START of Amenities */
-.amenitiesHeader {
-    
+.amenitiesBg {
+    background-image: url("/images/bg.jpg");
 }
+
+.amenitiesHeader {
+    margin-top: 3% !important;
+    margin-bottom: 2% !important;
+}
+
