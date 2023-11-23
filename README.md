@@ -16,4 +16,4 @@ Prototype Link: https://xd.adobe.com/spec/3e3b745f-aa5a-460e-5fd7-8cc90c248d21-4
 Assets: https://drive.google.com/file/d/14KQ7-DRuHdCIRoM0GZPob9KjLrvQWrkp/view?usp=sharing <br>
 
 Reviewer: <br>
-Name here - 
+Name here - Duc Tran: The website looks good and the website is responsive. 
