@@ -193,17 +193,20 @@ body {
     scale: 60%;
 }
 
+
 /* Reserve a room section */
 .resRoomMarPad {
     margin: 6%;
     padding-left: 6%;
     padding-right: 6%;
+    
 }
 
 .resRoomBoxMarPad {
     margin: 2%;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1%;
 }
 
 .resRoomBg {
@@ -216,7 +219,6 @@ body {
     background-size:cover;
     background-position: 10%;
     background-clip: 10%;
-    
 }
 
 .resImgInvis {
@@ -229,3 +231,8 @@ body {
     padding: 3px 50px;
     height: 30px;
 }
+/* Reserve a room section */
+
+/* Start of Footer */
+
+/* End of Footer */
