@@ -14,6 +14,9 @@ Prototype Link <br>
 Resources: <br>
 Prototype Link: https://xd.adobe.com/spec/3e3b745f-aa5a-460e-5fd7-8cc90c248d21-480a/screen/2bce9ed2-c1ed-4a71-ae23-37c1e019d677/Web-1920-1/  <br>
 Assets: https://drive.google.com/file/d/14KQ7-DRuHdCIRoM0GZPob9KjLrvQWrkp/view?usp=sharing <br>
+GitHub: https://github.com/dljimenez2324/Challenge2HamsterHotel <br>
 
+Changes: <br>
+See GitHub for history of changes
 Reviewer: <br>
 Name here - Duc Tran: The website looks good and the website is responsive. 
