@@ -10,6 +10,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Source Sans Pro'>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
@@ -36,9 +38,9 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav flexItEnd">
-            <a class="nav-link" aria-current="page" href="#">Overview</a>
-            <a class="nav-link" href="#">Rooms</a>
-            <a class="nav-link" href="#">Packages</a>
+            <a class="nav-link textSansProRegSmllr" aria-current="page" href="index.html#Overview">Overview</a>
+            <a class="nav-link textSansProRegSmllr" href="index.html#Rooms">Rooms</a>
+            <a class="nav-link textSansProRegSmllr" href="index.html#Packages">Packages</a>
             <a class="navbar-brand" href="#">
               <img
                 src="images/Logo.png"
@@ -47,9 +49,9 @@
                 height="100"
               />
             </a>
-            <a class="nav-link" href="#">Amenities</a>
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link navReserve" href="#">Reserve</a>
+            <a class="nav-link textSansProRegSmllr" href="index.html#Amenities">Amenities</a>
+            <a class="nav-link textSansProRegSmllr" href="index.html#Contact">Contact</a>
+            <a class="nav-link navReserve textSansProRegSmllr" href="index.html#Reserve">Reserve</a>
             <!-- add a border to css for Reserve link -->
           </div>
         </div>
@@ -62,8 +64,8 @@
       <div class="flex-container text-center flexItGoodNCenter">
         <div class="row flexPurpleBox">
           <div class="col flex">
-            <h1>Run on the wheel of luxury</h1>
-            <p>
+            <h1 class="textColorWhite heroFont">Run on the wheel of luxury</h1>
+            <p class="textColorWhite textSansProReg">
               Explore everything the beach has to offer in our relaxing resort.
             </p>
           </div>
@@ -73,6 +75,7 @@
     <!-- Start of Run on the wheel of luxury container-->
 
     <!-- Start of Welcome container -->
+    <section id="Overview"></section>
     <div class="welcomeBox flexItGoodNCenter">
       <div class="container-fluid">
         <div class="row">
@@ -81,9 +84,9 @@
           </div>
           <div class="col-8">
             <!-- look into using <dl> <dt> <dd> instead of <br> s -->
-            <h3>Welcome to a hamster's paradise</h3>
+            <h3 class="textDosisReg">Welcome to a hamster's paradise</h3>
             <br />
-            <p>
+            <p class="textSansProReg">
               Nestled in the heart of Cavia California, La Petite Maison is a
               luxury hotel designed for the small mammal with extravagance in
               mind. Escape to the warm comforts of stunning rooms, a relaxing
@@ -120,53 +123,54 @@
 
     <!-- Start Our Rooms Section -->
     <!-- note: Change card boarder to none -->
+    <section id="Rooms"></section>
     <div class="container-fluid ourRoomImage">
       <h1 class="ourRoomsText">Our Rooms</h1>
       <div class="card-group cardGroupStyled">
         <div class="card itemRadiusNone cardSpace" style="width: 18rem">
           <img src="images/room1.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Queen Room</h5>
+            <h5 class="card-title textDosisRegSm">Queen Room</h5>
             <p><strong>850 SQ FT room with city view</strong></p>
             <p class="card-text">
-              <ul>
+              <ul class="textSansProReg">
                 <li>One queen size bed</li><br>
                 <li>Seed Bar, fireplace and large balcony </li><br>
                 <li>Small kitchen with a refrigerator and stove</li><br><br>
               </ul>
             </p>
-            <a href="#" class="btn btn-primary itemRadiusNone">Go somewhere</a>
+            <a href="#" class="btn btn-primary itemRadiusNone textSansProRegSmllr">Reserve</a>
           </div>
         </div>
         <div class="card itemRadiusNone cardSpace" style="width: 18rem">
           <img src="images/room3.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">King Room</h5>
+            <h5 class="card-title textDosisRegSm">King Room</h5>
             <p><strong>950 SQ FT room with beach view</strong></p>
             <p class="card-text">
-              <ul>
+              <ul class="textSansProReg">
                 <li>One king size bed</li><br>
                 <li>Seed Bar, fireplace and large balcony </li><br>
                 <li>Small kitchen with a refrigerator and stove</li><br><br>
               </ul>
             </p>
-            <a href="#" class="btn btn-primary itemRadiusNone">Go somewhere</a>
+            <a href="#" class="btn btn-primary itemRadiusNone textSansProRegSmllr">Reserve</a>
           </div>
         </div>
         <div class="card itemRadiusNone cardSpace" style="width: 18rem">
           <img src="images/room2.jpg" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title">Beach Side Suite</h5>
+            <h5 class="card-title textDosisRegSm">Beach Side Suite</h5>
             <p><strong>1500 SQ FT Suite with beach view</strong></p>
             <p class="card-text">
-              <ul>
+              <ul class="textSansProReg">
                 <li>One California king size bed</li><br>
                 <li>Second room with fireplace, hot tub, and balcony</li><br>
                 <li>Seed Bar and coffee station</li><br>
                 <li>Full kitchen with a refrigerator, stove, and island</li>
               </ul>
             </p>
-            <a href="#" class="btn btn-primary itemRadiusNone">Go somewhere</a>
+            <a href="#" class="btn btn-primary itemRadiusNone textSansProRegSmllr">Reserve</a>
           </div>
         </div>
       </div>
@@ -174,8 +178,9 @@
     <!-- End Our Rooms Section -->
 
     <!-- Start of Packages Section -->
+    <section id="Packages"></section>
     <div class="container packageBottomMargin">
-      <h3 class="packageFont headMargin package flexItGoodNCenter">Packages</h3> <br>
+      <h3 class="packageFont headMargin package flexItGoodNCenter textDosisReg">Packages</h3> <br>
       <div class="container card mb-3 packageCardWidth cardMarginBottomZeroed borderStyleNone">
         <div class="row g-0">
           <div class="col-md-6 ">
@@ -183,9 +188,9 @@
           </div>
           <div class="col-md-6 ">
             <div class="card-body">
-              <h4 class="card-title cardTitleMarginBottom">Card title</h4>
-              <h7>Starting US $1,500.00</h7> </br> 
-              <p class="card-text packageTopMargin">
+              <h4 class="card-title cardTitleMarginBottom textDosisRegSm">Beach Wedding package</h4>
+              <h7 class="textSansProReg">Starting US $1,500.00</h7> </br> 
+              <p class="card-text packageTopMargin textSansProReg">
                 Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and friends will be provided after the ceremony.
               </p>
             </div>
@@ -196,28 +201,28 @@
         <div class="row g-0">
           <div class="col-md-6 ">
             <div class="card-body">
-              <h4 class="card-title cardTitleMarginBottom">Card title</h4>
-              <h7>Starting US $1,500.00</h7> </br> 
-              <p class="card-text packageTopMargin">
+              <h4 class="card-title cardTitleMarginBottom textDosisRegSm">Full Bloom Packagee</h4>
+              <h7 class="textSansProReg">Starting US $1,500.00</h7> </br> 
+              <p class="card-text packageTopMargin textSansProReg">
                 Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and friends will be provided after the ceremony.
               </p>
             </div>
           </div>
           <div class="col-md-6">
-            <img src="/images/hamsterwedding.jpg" class="img-fluid rounded-start borderStyleNone" alt="..." />
+            <img src="/images/hamsterspring.jpg" class="img-fluid rounded-start borderStyleNone" alt="..." />
           </div>
         </div>
       </div>
       <div class="container card mb-3 packageCardWidth cardMarginBottomZeroed borderStyleNone cardTitleMarginBottom">
         <div class="row g-0">
           <div class="col-md-6">
-            <img src="/images/hamsterwedding.jpg" class="img-fluid rounded-start borderStyleNone" alt="..." />
+            <img src="/images/hamstercheese.jpg" class="img-fluid rounded-start borderStyleNone" alt="..." />
           </div>
           <div class="col-md-6">
             <div class="card-body">
-              <h4 class="card-title cardTitleMarginBottom">Card title</h4>
-              <h7>Starting US $1,500.00</h7> </br> 
-              <p class="card-text packageTopMargin">
+              <h4 class="card-title cardTitleMarginBottom textDosisRegSm">Cheese and Seed Tour Package</h4>
+              <h7 class="textSansProReg">Starting US $1,500.00</h7> </br> 
+              <p class="card-text packageTopMargin textSansProReg">
                 Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and friends will be provided after the ceremony.
               </p>
             </div>
@@ -228,10 +233,11 @@
     <!-- End of Packages Section -->
 
     <!-- Start of Amenities -->
+    <section id="Amenities"></section>
     <div class="container-fluid amenitiesBg amenitiesPaddingBottom">
       
-        <h3 class="textColorWhite amenitiesPaddingTB flexItGoodNCenter">Amenities</h3> 
-        <p class="textColorWhite flexItGoodNCenter amenitiesIconsPad">Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most relaxing stay we can provide.</p>
+        <h3 class="textColorWhite amenitiesPaddingTB flexItGoodNCenter  textDosisReg">Amenities</h3> 
+        <p class="textColorWhite flexItGoodNCenter amenitiesIconsPad textSansProReg">Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most relaxing stay we can provide.</p>
       
       <div class="amenitiesIcons textColorWhite text-center">
         <div>
@@ -257,10 +263,11 @@
 
     <!-- START of Reserve a Room Section -->
     <div class="resRoomMarPad">
+      <section id="Reserve"></section>
       <div class="container">
         <div class="row resRoomBg ">
           <div class="resRoomBoxMarPad textColorWhite">
-            <h3 class="text-center">Reserve a Room</h3> <br>
+            <h3 class="text-center textDosisReg">Reserve a Room</h3> <br>
             <div class="container">
               <div class="row ">
                 <div class="col g-2">
@@ -271,24 +278,24 @@
                 </div>
                 <div class="col g-2">
                   <form>
-                    <label for="checkOut">Check-Out</label><br>
+                    <label for="checkOut" class="textSansProReg">Check-Out</label><br>
                     <input type="text" id="checkOut" name="checkOut" size="18"><br>
                   </form>
                 </div>
                 <div class="col g-2">
                   <form>
-                    <label for="numGuests">Number of Guests</label><br>
+                    <label for="numGuests" class="textSansProReg">Number of Guests</label><br>
                     <input type="text" id="numGuests" name="numGuests" size="18"><br>
                   </form>
                 </div>
                 <div class="col g-2">
                   <form>
-                    <label for="roomType">Room Type</label><br>
+                    <label for="roomType" class="textSansProReg">Room Type</label><br>
                     <input type="text" id="roomType" name="roomType" size="18"><br>
                   </form>
                 </div>
                 <div class="col g-2 d-flex align-items-end">
-                  <button type="button" class="btn btn-primary resBtn">Primary</button>
+                  <button type="button" class="btn btn-primary resBtn textSansProRegSmllr">Primary</button>
                 </div>
               </div>
             </div>
@@ -304,6 +311,7 @@
     <!-- END of Reserve a Room Section -->
 
     <!-- START of Footer -->
+    <section id="Contact"></section>
     <div class="container-fluid footieStyle textColorWhite">
 
       <div class="container justify-content-center flexItGoodNCenter">

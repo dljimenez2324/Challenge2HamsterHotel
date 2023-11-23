@@ -1,6 +1,27 @@
 /* General Styles */
 .textColorWhite {
-    color: #E5FEFF;
+    color: #FFFFFF;
+}
+
+/* Font classes down below */
+.textSansProReg {
+    font: normal normal normal 16px/20px Source Sans Pro;
+}
+
+.textSansProRegSmllr {
+    font: normal normal bold 20px/25px Source Sans Pro;
+}
+
+.textDosisRegSm {
+    font: normal normal normal 25px/32px Dosis;
+}
+
+.textDosisReg {
+    font: normal normal normal 35px/44px Dosis;
+}
+
+.heroFont {
+    font: normal normal normal 45px/57px Dosis;
 }
 
 .bodyBg {
@@ -13,10 +34,6 @@
     
 }
 
-.flexItEnd {
-    display: flex;
-    align-items: flex-end;
-}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -30,24 +47,31 @@ body {
 }
 
 .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
     padding-top: 0;
     padding-bottom: 0;
     font: normal normal normal 20px/26px Dosis;
 }
 
-/* navReserve seems to not be working */
+.flexItEnd {
+    display: flex;
+    align-items: flex-end;
+}
+/* navReserve seems to not be working  I see that the code works then the navBar words turn hotpink, the border turns white, then everything gets overwritten*/
 .navReserve {
-    border-style:solid !important;
+    border: 2px solid #E5FEFF;
     padding-left: 15px;
     padding-right: 15px;
-    color:#ffffff;
+    color:#E5FEFF;
+    padding-bottom: 2px;
 }
 .navReserve:hover {
     border-style:solid;
 }
 .navReserve:active {
     border-style:solid;
-    color:#ffffff;
+    color:#E5FEFF;
 
 }
 /* Navbar Section!!! */
