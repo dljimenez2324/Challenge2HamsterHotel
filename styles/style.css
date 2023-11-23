@@ -1,3 +1,7 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .NavbarBack {
     background-color: #000324 !important;
 }
@@ -75,7 +79,9 @@
 
 .ourRoomImage {
     background-image: url("../images/bg2.jpg");
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .ourRoomsText {
@@ -134,6 +140,9 @@
     margin-top: 4%;
 }
 
+.packageBottomMargin {
+    margin-bottom: 4%;
+}
 .cardMarginBottomZeroed {
     margin-bottom: 0 !important;
 }
@@ -147,10 +156,76 @@
 /* START of Amenities */
 .amenitiesBg {
     background-image: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.amenitiesPaddingTB {
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+.amenitiesPaddingBottom {
+    padding-bottom: 4%;
 }
 
 .amenitiesHeader {
     margin-top: 3% !important;
     margin-bottom: 2% !important;
+
 }
 
+.amenitiesIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.amenitiesIconsPad {
+    padding-bottom: 2%;
+}
+
+.valetScale {
+    scale: 60%;
+}
+
+/* Reserve a room section */
+.resRoomMarPad {
+    margin: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.resRoomBoxMarPad {
+    margin: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.resRoomBg {
+    background-color: #000324;
+}
+
+.resRoomImg {
+    background-image: url("/images/hamsterreserve.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 10%;
+    background-clip: 10%;
+    
+}
+
+.resImgInvis {
+    opacity: 0;
+}
+
+.resBtn {
+    border-style: none !important;
+    border-radius: 0% !important;
+    padding: 3px 50px;
+    height: 30px;
+}
