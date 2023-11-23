@@ -1,7 +1,30 @@
+/* General Styles */
+.textColorWhite {
+    color: #E5FEFF;
+}
+
+.bodyBg {
+    background-color: #ffffff;
+}
+
+.flexItGoodNCenter {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flexItEnd {
+    display: flex;
+    align-items: flex-end;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
+/* End of General Styles */
 
+
+/* Navbar Section!!! */
 .NavbarBack {
     background-color: #000324 !important;
 }
@@ -27,26 +50,10 @@ body {
     color:#ffffff;
 
 }
+/* Navbar Section!!! */
 
-.textColorWhite {
-    color: #E5FEFF;
-}
 
-.bodyBg {
-    background-color: #ffffff;
-}
-
-.flexItGoodNCenter {
-    display: flex;
-    justify-content: center;
-    
-}
-
-.flexItEnd {
-    display: flex;
-    align-items: flex-end;
-}
-
+/* Welcome Section */
 .heroImage {
     background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
@@ -68,9 +75,11 @@ body {
 }
 
 .welcomeBox {
-    /* margin: auto; */
+    
     padding: 10%;
 }
+/* End of Welcome Section */
+
 
 /* Styles tailored for Our Rooms Section */
 .itemRadiusNone {
@@ -106,22 +115,19 @@ body {
     margin: 1%;
 }
 
+ul {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 18px;
+}
+
+
 
 /* !!! Packages Section !!!*/
-
 .packageFont {
     font-size: 35;
 }
-
-/* .packagePlacing {
-    padding-left: 11%;
-    padding-right: 11%;
-
-} */
-
-/* .leftImg {
-    padding-right: 5%;
-} */
 
 .headMargin {
     margin-top: 6%;
@@ -231,7 +237,7 @@ body {
     padding: 3px 50px;
     height: 30px;
 }
-/* Reserve a room section */
+/* End Reserve a room section */
 
 /* Start of Footer */
 .footieStyle {
