@@ -234,5 +234,15 @@ body {
 /* Reserve a room section */
 
 /* Start of Footer */
+.footieStyle {
+    padding-top: 1%;
+    padding-left: 4%; 
+    padding-right: 4%;
+    padding-bottom: 3%;
+    background-color: #000324;
+}
 
+.footieText {
+    flex-direction: column;
+}
 /* End of Footer */
